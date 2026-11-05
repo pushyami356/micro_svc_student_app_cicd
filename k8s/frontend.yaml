@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: harathi2026/student-frontend:6efd988c937f5b70dbe822218a6b4aa0bb03dc31
+          image: push356/student-frontend:6efd988c937f5b70dbe822218a6b4aa0bb03dc31
           ports:
             - {containerPort: 80}
           readinessProbe:
