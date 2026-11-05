@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: auth
-          image: push356/student-auth:33be866e015a4fac0abda732ae496dfa808b7d8b
+          image: push356/student-auth:2e55478e1ad036685cc8ca8b06734974961fe830
           ports:
             - {containerPort: 8000}
           env:
