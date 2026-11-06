@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: attendance
-          image: push356/student-attendance:ac7865e58329b6b2ab8442bde37816a1abf6824c
+          image: push356/student-attendance:35db2a29b28dc2b5607273fd8752ad654994ea86
           ports:
             - {containerPort: 8000}
           env:
